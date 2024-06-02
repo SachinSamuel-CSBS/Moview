@@ -1,0 +1,107 @@
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background-color: #1c1c1c; 
+    font-family: 'Arial', sans-serif; 
+    color: #ffffff; 
+}
+
+.signin .container {
+    background: #2c2c2c; 
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #444;
+    text-align: center; 
+}
+
+.signin h2 {
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.signin .element {
+    margin-bottom: 1rem;
+    text-align: left; 
+}
+
+.signin .element label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.signin .element input {
+    width: 385px;
+    padding: 0.65rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: #333;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.signin .element input:focus {
+    border-color: #ffffff;
+}
+
+
+.signin .btn1,
+.signin .btn2 {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: #444;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.signin .btn2 {
+    width: 385px;
+}
+
+.signin .btn1:hover,
+.signin .btn2:hover {
+    background: #555;
+}
+
+.signin .btn2 {
+    background: #666;
+}
+
+.signin .btn2:hover {
+    background: #777;
+}
+
+
+.signin p {
+    margin-top: 1rem;
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+.signin p strong {
+    color: #ffffff;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.signin p strong:hover {
+    color: #cccccc;
+}
