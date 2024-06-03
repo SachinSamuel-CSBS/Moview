@@ -11,6 +11,10 @@ app.use(cors())
 
 mongoose.connect("mongodb+srv://sachin:sachin@cluster0.fthiy8s.mongodb.net/moview?retryWrites=true&w=majority&appName=Cluster0")
 
+app.get('/',(req,res) => {
+    res.json("hello");
+}
+
 
 
 app.post('/signup', (req, res) => {
