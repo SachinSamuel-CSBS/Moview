@@ -13,7 +13,7 @@ function Signup() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/signup',{name,email,password})
+        axios.post('https://moview-4.onrender.com/signup',{name,email,password})
         .then(result => {
             console.log(result)
             if(result.data === "Success") {
