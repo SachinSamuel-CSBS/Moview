@@ -10,7 +10,7 @@ const PlayList = () => {
 
     useEffect(() => {
         const email = JSON.parse(localStorage.getItem('email'));
-        axios.get(`http://localhost:3001/movies/${email}`)
+        axios.get(`https://moview-4.onrender.com/movies/${email}`)
             .then(result => {
                 const ids = result.data.movies;
                 fetchMovies(ids);
