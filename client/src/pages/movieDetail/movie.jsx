@@ -30,7 +30,7 @@ const Movie = () => {
         const ids = JSON.parse(localStorage.getItem('movie_id'));
         console.log(ids)
         const email = JSON.parse(localStorage.getItem('email'));
-        axios.post('http://localhost:3001/check',{ids,email})
+        axios.post('https://moview-4.onrender.com/check',{ids,email})
         .then(result => {
             console.log(result)
             if(result.data === 'available') {
@@ -47,7 +47,7 @@ const Movie = () => {
         setRemove(!remove)
         const id = JSON.parse(localStorage.getItem('movie_id'));
         const email = JSON.parse(localStorage.getItem('email'));
-        axios.post('http://localhost:3001/playlist',{email,id})
+        axios.post('https://moview-4.onrender.com/playlist',{email,id})
         .then((result) => {console.log(result)})
         .catch((err) => console.log(err))
     }
@@ -56,7 +56,7 @@ const Movie = () => {
         setRemove(!remove)
         const id = JSON.parse(localStorage.getItem('movie_id'));
         const email = JSON.parse(localStorage.getItem('email'));
-        axios.post('http://localhost:3001/remove',{email,id})
+        axios.post('https://moview-4.onrender.com/remove',{email,id})
         .then((result) => {console.log(result)})
         .catch((err) => console.log(err))
     }
