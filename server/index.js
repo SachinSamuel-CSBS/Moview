@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://sachin:sachin@cluster0.fthiy8s.mongodb.net/movie
 
 app.get('/',(req,res) => {
     res.json("hello");
-}
+})
 
 
 
