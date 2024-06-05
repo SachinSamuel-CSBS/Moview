@@ -10,7 +10,7 @@ MOVIEW
   4. And also they can remove from movies from the list.<br>
 </h4>
 
- <h3 align="center">Live demo : <a href="https://moview-pi.vercel.app/signin">here</a></h3>
+ <h3 align="center">Live demo : <a href="https://moview-pi.vercel.app">here</a></h3>
  <h3 align="center">Please check the demo video : <a href="https://drive.google.com/file/d/1aPOQWLp4TPYovTt_boSBTxDhhLDjAK2L/view?usp=sharing">here</a></h3>
  
 <br>
