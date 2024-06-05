@@ -3,7 +3,7 @@ MOVIEW
 </h1>
 
 <h4>
-  It is a movie library web application with the below: features<br>
+  It is a movie library web application with the below features:<br>
   1. The application have a user authentication ( Sign In/ Sign Up )<br>
   2. After logging in users will be navigated to the home screen where they can search movies and see details of those movies.<br>
   3. They can create a list of movies by adding the movies to list.<br>
